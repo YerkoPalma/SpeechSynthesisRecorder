@@ -12,7 +12,7 @@ types, see [MediaStream, ArrayBuffer, Blob audio result from speak() for recordi
 Add the following script tag
 
 ```html
-<script type="text/javascript" src="https://unpkg.com/speech-synthesis-recorder@1.0.0/SpeechSynthesisRecorder.js"></script>
+<script type="text/javascript" src="https://unpkg.com/speech-synthesis-recorder@1.2.1/SpeechSynthesisRecorder.js"></script>
 ```
 
 or npm install
@@ -30,7 +30,7 @@ prompt.
 ```js
 let ttsRecorder = new SpeechSynthesisRecorder({
   text: "The revolution will not be televised", 
-  utternanceOptions: {
+  utteranceOptions: {
     voice: "english-us espeak",
     lang: "en-US",
     pitch: .75,
@@ -147,7 +147,7 @@ ttsRecorder.start()
 ## Demo
 [plnkr][plnkr]
 
-[plnkr]: https://plnkr.co/edit/7Y2ifjRK5K9YGwT9G8nn?p=preview
+[plnkr]: https://plnkr.co/edit/PmpCSJ9GtVCXDhnOqn3D?p=preview
 [getUserMedia]: https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia
 [MediaRecorder]: https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder
 [speak]: https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/speak

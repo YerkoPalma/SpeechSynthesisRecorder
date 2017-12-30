@@ -1,7 +1,7 @@
 {
   "name": "speech-synthesis-recorder",
-  "version": "1.0.0",
-  "description": "Record data instead of playing it from SpeechSynthesis.speak()",
+  "version": "1.2.1",
+  "description": "Record audio output from window.speechSynthesis.speak()",
   "main": "SpeechSynthesisRecorder.js",
   "scripts": {
     "test": "standard"
